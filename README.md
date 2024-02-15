@@ -33,10 +33,15 @@ Copy the jar to this project directory.
 
 Run the Wiremock by using the following command (replacing wiremock-jre8-standalone-2.35.0.jar with the name of the downloaded jar file): 
 ```
-java -jar wiremock-jre8-standalone-2.35.0.jar --port 9001
+java -jar wiremock-standalone-3.3.1.jar --port 9001
 ```
 
 The service will start on port `9001`, which is where the Dispatch Service will attempt to call it.
+
+## Run the Wiremock using Docker
+```shell
+./run.sh
+```
 
 ## Connect with the team at Lydtech Consulting
 * Visit us at [lydtechconsulting.com](https://www.lydtechconsulting.com/)
